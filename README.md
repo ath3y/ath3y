@@ -1,8 +1,3 @@
-## Hi there 👋
-
-<!--
-**ath3y/ath3y** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
 Entrepreneur and operator at the intersection of music and technology. I founded a venture-backed music tech startup, and now run Creative Value, a music services company providing fractional operations and systems support to independent music businesses.
 
 🟢 Active Projects
@@ -43,5 +38,3 @@ Music creators and their teams have always needed contracts — splits agreement
 When we started, it wasn't obvious that the major AI companies would move aggressively into compliance-heavy areas like law. GPT and its peers got (and are getting) very good at generating simple contracts, exactly the ones we were building, and they did it cheap enough to make our unit economics hard to justify. Ultimately, it's a good outcome for musicians: democratized access to affordable legal tools. We just weren't the ones who got to build it.
 
 Stack: Stack: Next.js · Supabase · Zustand · Stripe · OpenAI · Google Gemini · OpenSign · Pinata (IPFS) · Twilio · Resend
-
--->

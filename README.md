@@ -1,7 +1,8 @@
-Thomas Athey 
-thomas@creativevalue.co
+Hello! My name is Thomas Athey.
 
-Entrepreneur and operator at the intersection of music and technology. I founded a venture-backed music tech startup, and now run Creative Value, a music services company providing fractional operations and systems support to independent music businesses.
+I'm an entrepreneur and operator working at the intersection of music and technology. I founded a venture-backed music tech startup, and now run Creative Value, a music services company providing fractional operations and systems support to independent music businesses.
+
+You can reach me at thomas@creativevalue.co
 
 🟢 Active Projects
 

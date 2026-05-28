@@ -28,7 +28,7 @@ Stack: Next.js · React · Tailwind CSS
 
 -Admin Dashboard: A catalog management platform for music rights holders.
 
-Rights holders' ownership data largely lives in spreadsheets — and managing that data is tedious, error-prone work. Rights holders' ownership data largely lives in spreadsheets — and managing that data is tedious and error-prone. These aren't financial analysts; they're people in the music business juggling splits, registrations, and publishing admin across tabs that were never designed for it. The Admin Dashboard was built to pull that data into a clean, structured UI that makes edits and new entries far easier to manage.
+Rights holders' ownership data largely lives in spreadsheets — and managing that data is tedious, error-prone work. These aren't financial analysts; they're people in the music business juggling splits, registrations, and publishing admin across tabs that were never designed for it. The Admin Dashboard was built to pull that data into a clean, structured UI that makes edits and new entries far easier to manage.
 
 After talking to potential customers, I realized everyone's spreadsheet setup is different, and those setups are deeply embedded in how they work. Migrating someone off that, especially when the data is sensitive ownership and publishing information, requires significant trust, onboarding investment, and security infrastructure that takes real time to build right. At an indie SaaS price point, the effort to value didn't make sense.
 

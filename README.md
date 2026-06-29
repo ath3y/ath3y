@@ -14,7 +14,6 @@ The agent is drafting against the live inbox today. I'm currently tightening dra
 
 Stack: Claude (Anthropic API) · Claude Code · Gmail API · Google Drive API · SQLite (FTS5 full-text search) · Python
 
----
 Future features:
 
 - Scheduled, headless operation — moves from on-demand (run manually) to an automated service that triages and pre-drafts the inbox on a cadence.
@@ -22,7 +21,7 @@ Future features:
 - API integration (AudioSalad) — gives the agent real-time visibility into delivery and release status, so drafts can confirm facts ("your song is delivered, live by 7/2") instead of hedging.
 - Native Gmail triage labels — surfaces priority directly in the inbox the team already uses.
 
-  **-Delivery Automation — Client: 6149 (music distributor)**
+**-Delivery Automation — Client: 6149 (music distributor)**
 
 Delivering music to DSPs means pushing it through AudioSalad (6149's distribution backend) validating metadata, requesting delivery to each DSP, and tracking status, all done manually in the portal, release by release. This automates the delivery pipeline against the AudioSalad API: programmatically validating and delivering releases, and surfacing live delivery/release status so the team (and the client-manager agent) can confirm exactly where something stands instead of logging in to check.
 

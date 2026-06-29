@@ -6,6 +6,22 @@ You can reach me at thomas@creativevalue.co
 
 🟢 Active Projects
 
+-Client-Manager Agent — Client: 6149 (music distributor) / 22TWENTY Records
+
+A distributor like 6149 lives and dies by client email. The same questions about release timing, playlist pitching, royalties, and profile fixes, answered over and over by a small team. When the person who ran most of that inbox departed, years of institutional knowledge risked walking out with him. This is an AI client-manager agent that reads the live Gmail inbox, triages what actually needs a reply, and drafts responses in the operator's own voice — grounded in 6149's current pricing and process facts and a searchable archive of ~45,000 past client emails it pulls from for precedent. A human always reviews and sends; the agent never sends on its own. That keeps 6149's "real people, not bots" promise intact while cutting the repetitive volume.
+
+The agent is drafting against the live inbox today. I'm currently tightening draft quality by comparing its output against the operator's actual sent replies, and building toward a company-owned version that runs on a schedule and survives any one person leaving.
+
+Stack: Claude (Anthropic API) · Claude Code · Gmail API · Google Drive API · SQLite (FTS5 full-text search) · Python
+
+---
+Future features:
+
+- Scheduled, headless operation — moves from on-demand (run manually) to an automated service that triages and pre-drafts the inbox on a cadence.
+- Company-owned auth & handoff — replaces the personal account connection with a company service account so the system, and the inbox knowledge, belong to 6149 rather than any individual operator.
+- Portal/API integration (AudioSalad) — gives the agent real-time visibility into delivery and release status, so drafts can confirm facts ("your song is delivered, live by 7/2") instead of hedging.
+- Native Gmail triage labels — surfaces priority directly in the inbox the team already uses.
+
 -Tour Advance Automation - Initial Client: Tour Manager of Pigeons Playing Ping Pong (PPPP)
 
 Tour managers spend a significant chunk of their time on repetitive, manual work — taking venue advance emails, flight info, hotel confirmations, rental car reservations, and more, copying it all into a 70-column spreadsheet, then manually re-entering that same data into a project management tool so the rest of the team can actually read it. This tool eliminates that. It's built in Google Apps Script so no existing workflows need to change — they're just automated.
